@@ -12,10 +12,7 @@ html {
 
 body {
   font-family: 'Arial';
-<<<<<<< HEAD
-=======
   font-weight: bold;
->>>>>>> 👡 Adds demo page
   -webkit-font-smoothing: antialiased;
 }
 
@@ -71,10 +68,6 @@ a {
   transition: opacity 0.25s;
 }
 
-<<<<<<< HEAD
-
-=======
->>>>>>> 👡 Adds demo page
 .marquee3k.is-ready:not(.massive) {
   opacity: 1;
 }
@@ -86,21 +79,12 @@ a {
 }
 
 .diagonal {
-<<<<<<< HEAD
   width: 140vw;
   position: fixed !important;
   left: 0;
   top: 20px;
   transform-origin: 0% 0%;
   transform: rotate(45deg);
-=======
-  width: 110vw;
-  position: fixed !important;
-  left: -30px;
-  top: 100px;
-  transform-origin: 13vw 50%;
-  transform: rotate(30deg);
->>>>>>> 👡 Adds demo page
   background: #FFD800;
   z-index: 997;
   border-top: 1px solid black;
@@ -118,11 +102,12 @@ a {
   color: blue;
 }
 
-<<<<<<< HEAD
 .site-link {
   color: #FF3584;
 }
 
+=======
+>>>>>>> 👡 Adds demo page
 =======
 >>>>>>> 👡 Adds demo page
 .tweet {
@@ -162,7 +147,6 @@ img {
 .small {
   font-size: 18px;
   text-transform: uppercase;
-<<<<<<< HEAD
 }
 
 .diag {
@@ -175,6 +159,8 @@ img {
   z-index: 99;
   background: #CDE8FC;
   border-top: 1px solid black;
+=======
+>>>>>>> 👡 Adds demo page
 =======
 >>>>>>> 👡 Adds demo page
 }
