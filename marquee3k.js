@@ -82,7 +82,12 @@
         // Set marquee properties
         marquee.position = 0;
         marquee.vertical = marquee.dataset.vertical;
+<<<<<<< HEAD
         marquee.content = marqueeContent;
+=======
+        marquee.reverse = marquee.dataset.reverse;
+        marquee.pausable = marquee.dataset.pausable;
+>>>>>>> Updates with pausable marquee
         marquee.direction = marquee.dataset.reverse ? 1 : -1;
         marquee.speed = (marquee.dataset.speed ? (marquee.dataset.speed / 60) : (50/60)) * marquee.direction;
         marquee.delay = 0;
@@ -151,7 +156,23 @@
 =======
         marquee.style.visibility = 'visible';
         marquee.classList.add('is-ready');
+<<<<<<< HEAD
 >>>>>>> 👡 Adds demo page
+=======
+
+        // Add event listeners if marquee is pausable on hover
+        (function(i) {
+          if (marquee.pausable) {
+            marquees[i].addEventListener('mouseenter', function() {
+              marquees[i].isPaused = true;
+            });
+
+            marquees[i].addEventListener('mouseleave', function() {
+              marquees[i].isPaused = false;
+            });
+          }
+        })(i);
+>>>>>>> Updates with pausable marquee
       }
 
       if (this.reverse) {
