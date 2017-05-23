@@ -248,7 +248,6 @@ var __WEBPACK_AMD_DEFINE_FACTORY__, __WEBPACK_AMD_DEFINE_ARRAY__, __WEBPACK_AMD_
 
 
 var FontFaceObserver = __webpack_require__(0);
-var fontLeague = new FontFaceObserver('LeagueGothic');
 var fontRoboto = new FontFaceObserver('RobotoBlackItalic');
 var Marquee3k = __webpack_require__(1);
 
