@@ -1,197 +1,50 @@
-* {
+*,
+*:before,
+*:after {
   box-sizing: border-box;
 }
 
 html, body {
   margin: 0;
-}
-
-html {
-  font-size: 32px;
+  padding: 0;
 }
 
 body {
   font-family: 'Arial';
-<<<<<<< HEAD
-  font-weight: bold;
-=======
-<<<<<<< HEAD
-=======
-  font-weight: bold;
->>>>>>> 👡 Adds demo page
->>>>>>> 👡 Adds demo page
+  font-size: 32px;
   -webkit-font-smoothing: antialiased;
+  background: black;
+  color: white;
+}
+
+@media (max-width: 600px) {
+  body {
+    font-size: 18px;
+  }
 }
 
 a {
   text-decoration: none;
   color: inherit;
-  display: inline;
 }
 
-.brand {
-  background: red;
-  z-index: 990;
-}
-
-.brand--3k {
-  background: green;
-  color: white;
-  z-index: 998;
-}
-
-.link--git {
-  background: black;
-  color: white;
-  z-index: 998;
-}
-
-.link--git:hover {
-  background: #7100FF;
-}
-
-.vert {
-  position: fixed !important;
-  top: 0;
-  background: #f0f0f0;
-  z-index: 996;
-}
-
-.vert--new {
-  left: 10vw;
-}
-
-.vert--back {
-  left: calc(10vw + 80px);
-  z-index: 999;
-  background: blue;
-  color: white;
+h1, h2, h3, h4 {
+  margin: 0;
+  padding: 0;
+  font-weight: normal;
+  font-size: inherit;
 }
 
 .marquee3k {
-  border-bottom: 1px solid black;
-  visibility: hidden;
+  border-bottom: 1px solid white;
   opacity: 0;
-  transition: opacity 0.25s;
+  transition: opacity 0.5s;
 }
 
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-
-=======
->>>>>>> 👡 Adds demo page
->>>>>>> 👡 Adds demo page
-.marquee3k.is-ready:not(.massive) {
-  opacity: 1;
-}
-
-.marquee3k--vertical {
-  border-bottom: 0;
-  border-right: 1px solid black;
-  border-left: 1px solid black;
-}
-
-.diagonal {
-<<<<<<< HEAD
-  width: 140vw;
-  position: fixed !important;
-  left: 0;
-  top: 20px;
-  transform-origin: 0% 0%;
-  transform: rotate(45deg);
-=======
-  width: 110vw;
-  position: fixed !important;
-  left: -30px;
-  top: 100px;
-  transform-origin: 13vw 50%;
-  transform: rotate(30deg);
->>>>>>> 👡 Adds demo page
-  background: #FFD800;
-  z-index: 997;
-  border-top: 1px solid black;
-}
-
-#news {
-  padding-left: 1rem;
-}
-
-#news span {
-  padding-right: 1rem;
-}
-
-.news {
-  color: blue;
-}
-
-<<<<<<< HEAD
-.site-link {
-  color: #FF3584;
-}
-
-=======
->>>>>>> 👡 Adds demo page
-<<<<<<< HEAD
-=======
->>>>>>> 👡 Adds demo page
-=======
->>>>>>> 👡 Adds demo page
-.tweet {
-  background: #FF3584;
-}
-
-img {
-  height: 35px;
+.marquee3k__copy {
   display: inline-block;
-  vertical-align: middle;
 }
 
-.hover {
-  cursor: pointer;
-}
-
-.hover:hover {
-  background: orange;
-}
-
-.massive {
-  width: 100vw;
-  position: fixed !important;
-  top:0;
-  left: 0;
-  font-size: 90vh;
-  z-index: 9999;
-  pointer-events: none;
-  opacity: 0;
-  transition: none;
-}
-
-.massive.is-active {
+.is-init {
   opacity: 1;
-}
-
-.small {
-  font-size: 18px;
-  text-transform: uppercase;
-<<<<<<< HEAD
-}
-
-.diag {
-  width: 150vw;
-  position: fixed !important;
-  transform-origin: 100% 0%;
-  top: 0;
-  right: 0;
-  transform: rotate(-45deg);
-  z-index: 99;
-  background: #CDE8FC;
-  border-top: 1px solid black;
-=======
->>>>>>> 👡 Adds demo page
-<<<<<<< HEAD
-=======
->>>>>>> 👡 Adds demo page
-=======
->>>>>>> 👡 Adds demo page
 }
