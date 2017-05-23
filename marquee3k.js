@@ -70,6 +70,7 @@
 
     _createClone() {
       const clone = document.createElement('span');
+      clone.style.display = 'inline-block';
       clone.classList.add(`${this.selector}__copy`)
       clone.innerHTML = this.innerContent;
       this.wrapper.appendChild(clone);
