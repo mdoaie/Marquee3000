@@ -3,7 +3,7 @@ module.exports = {
     loaders: [
       {
         test: /\.js$/,
-        exclude: /(node_modules|bower_components)/,
+        exclude: /(bower_components)/,
         loader: 'babel-loader?presets[]=es2015'
       }
     ]
