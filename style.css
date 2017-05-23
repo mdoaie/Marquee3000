@@ -57,5 +57,5 @@ h1, h2, h3, h4 {
 img {
   backface-visibility: hidden;
   display: block;
-  width: 80px;
+  width: 100px;
 }
